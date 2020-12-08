@@ -1,7 +1,7 @@
 import pymongo
 
 client = pymongo.MongoClient(
-    'mongodb+srv://Agnieszka:Fryderyk2012@cluster0.qgcux.mongodb.net/users?retryWrites=true&w=majority')
+    'mongodb+srv://Agnieszka:<password123>@cluster0.qgcux.mongodb.net/users?retryWrites=true&w=majority')
 # from mongo Atlas choose connect and connect your application
 
 # the protocol, ip address and port by default - but if you have mongo locally
